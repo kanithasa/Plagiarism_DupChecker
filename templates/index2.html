@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../static/global2.css" />
+    <link rel="stylesheet" href="../static/index2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Proza Libre:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="rectangle-parent">
+        <img class="group-child" src="{{ url_for('static', filename='rectangle-3@2x.png') }}" alt="Image">
+
+        <div class="group-item"></div>
+        <img class="group-inner" src="{{ url_for('static', filename='rectangle-71@2x.png') }}" alt="Image">
+
+        <div class="dupchecker">DUPCHECKER</div>
+        <div class="trust-us-to">Trust us to keep your authenticity</div>
+        <div class="hello-again">Hello Again!</div>
+        <div class="email-id">Username:</div>
+        <div class="password">Password:</div>
+      </div>
+      <form method="POST">
+        <div class="login-page-inner">
+          <input
+            class="rectangle-input"
+            type="Text"
+            placeholder="Username"
+            name = "username"
+            maxlength
+            minlength
+            required>
+        </div>
+        <div class="login-page-child">
+          <input
+            class="rectangle-input"
+            type="password"
+            placeholder="Password"
+            name = "password"
+            maxlength="{32}"
+            minlength="{8}"
+            required>
+        </div>
+        <a class="login-page-item"></a>
+        <button type = submit class="login">LOGIN</button>
+          {% if error %}
+          <p class = "error" > {{ error }}</p>
+          {% endif %}    
+        </form>
+      </div>
+      <div class="dupcheckercom-all">
+        @ 2023 DupChecker.com | All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

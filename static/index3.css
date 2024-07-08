@@ -1,0 +1,243 @@
+.input-page-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-steelblue);
+  width: 1418px;
+  height: 208px;
+}
+.group-child,
+.input-page-inner {
+  position: absolute;
+  width: 514px;
+  height: 418px;
+}
+.group-child {
+  border: 0;
+  background-color: var(--color-lightsteelblue);
+  top: 0;
+  left: calc(50% - 257px);
+  border-radius: var(--br-6xl);
+}
+.input-page-inner {
+  top: 319px;
+  left: calc(50% - 603px);
+}
+.group-div,
+.group-inner,
+.group-item {
+  position: absolute;
+  width: 134px;
+  height: 34px;
+}
+.group-item {
+  top: 0;
+  left: calc(50% - 67px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lightsteelblue);
+}
+.group-div,
+.group-inner {
+  top: 755px;
+  left: calc(50% - 300px);
+}
+.group-inner {
+  top: 0;
+  left: calc(50% - 110px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lightsteelblue);
+  width: 220px;
+  height: 44px;
+}
+.check-authenticity {
+  left: calc(50% - 110px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lightsteelblue);
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  display: inline-block;
+  margin-top: 800px;
+  margin-left: 590px;
+  text-size-adjust: 50px;
+}
+.rectangle-parent {
+  text-decoration: none;
+  position: absolute;
+  top: 830px;
+  left: calc(50% - 110px);
+  width: 220px;
+  height: 44px;
+  color: inherit;
+}
+.input-page-inner1 {
+  position: absolute;
+  top: 755px;
+  left: calc(50% + 401px);
+  width: 134px;
+  height: 34px;
+}
+.enter-your-text,
+.enter-your-text1,
+.or-chose-a,
+.or-chose-a1 {
+  position: absolute;
+  top: 758px;
+  left: 119px;
+  display: inline-block;
+  width: 306px;
+  height: 31px;
+}
+.enter-your-text,
+.enter-your-text1,
+.or-chose-a1 {
+  top: 288px;
+  left: 106px;
+}
+.enter-your-text1,
+.or-chose-a1 {
+  left: 802px;
+  width: 319px;
+}
+.or-chose-a1 {
+  top: 758px;
+  left: 815px;
+  width: 306px;
+}
+.input-page-inner2,
+.rectangle-div {
+  position: absolute;
+  top: 319px;
+  left: calc(50% + 93px);
+  width: 514px;
+  height: 418px;
+}
+.rectangle-div {
+  top: 0;
+  left: calc(50% - 69.5px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lightsteelblue);
+  width: 139px;
+  height: 42px;
+}
+.home {
+  position: absolute;
+  top: 5px;
+  left: 44px;
+  display: inline-block;
+  width: 61px;
+  height: 32px;
+}
+.rectangle-group {
+  text-decoration: none;
+  position: absolute;
+  top: 127px;
+  left: calc(50% + 223px);
+  width: 139px;
+  height: 42px;
+  color: inherit;
+}
+.about-us {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-akaya-kanadaka);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 127px;
+  left: calc(50% + 379px);
+  width: 139px;
+  height: 42px;
+}
+.contact {
+  position: absolute;
+  top: 5px;
+  left: 31px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-akaya-kanadaka);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 127px;
+  left: calc(50% + 535px);
+  width: 139px;
+  height: 42px;
+}
+.dupchecker,
+.trust-us-to {
+  position: absolute;
+  top: 121px;
+  left: 156px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  display: inline-block;
+  width: 224px;
+  height: 31px;
+}
+.dupchecker {
+  top: 54px;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-harmattan);
+  width: 266px;
+  height: 59px;
+}
+.input-page-item {
+  position: absolute;
+  top: 54px;
+  left: 38px;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.input-page-child1 {
+  position: absolute;
+  top: 905px;
+  left: 0;
+  background-color: var(--color-steelblue);
+  width: 1418px;
+  height: 105px;
+}
+.dupcheckercom-all {
+  position: absolute;
+  top: 936px;
+  left: 19px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-harmattan);
+  color: var(--color-white);
+  display: inline-block;
+  width: 504px;
+  height: 32px;
+}
+.input-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1010px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-akaya-kanadaka);
+}

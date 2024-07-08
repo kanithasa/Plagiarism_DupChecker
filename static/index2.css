@@ -1,0 +1,158 @@
+.group-child {
+  position: absolute;
+  top: 345px;
+  left: 0;
+  width: 569.86px;
+  height: 392px;
+  object-fit: cover;
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 614px;
+  background-color: var(--color-steelblue);
+  width: 760px;
+  height: 1007px;
+}
+.group-inner {
+  position: absolute;
+  top: 70px;
+  left: 792px;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.dupchecker {
+  position: absolute;
+  top: 65px;
+  left: 911px;
+  font-family: var(--font-harmattan);
+  display: inline-block;
+  width: 266px;
+  height: 59px;
+}
+.trust-us-to {
+  top: 131px;
+  left: 914px;
+  font-size: var(--font-size-xl);
+  width: 314px;
+  height: 31px;
+}
+.email-id,
+.hello-again,
+.password,
+.trust-us-to {
+  position: absolute;
+  display: inline-block;
+}
+.hello-again {
+  top: 246px;
+  left: 855px;
+  font-family: var(--font-playfair-display);
+  width: 286px;
+  height: 81px;
+}
+.email-id,
+.password {
+  top: 418px;
+  left: 722px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-lightsteelblue);
+  width: 319px;
+  height: 31px;
+}
+.password {
+  top: 584px;
+}
+.rectangle-input,
+.rectangle-parent {
+  position: absolute;
+  top: 3px;
+  left: 87px;
+  width: 1374px;
+  height: 1007px;
+}
+.rectangle-input {
+  border: 0;
+  background-color: var(--color-lightsteelblue);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  width: 475px;
+  height: 74px;
+}
+.login-page-child,
+.login-page-inner,
+.login-page-item {
+  position: absolute;
+  top: 478px;
+  left: 847px;
+  width: 475px;
+  height: 74px;
+}
+.login-page-child,
+.login-page-item {
+  top: 644px;
+}
+.login-page-item {
+  text-decoration: none;
+  top: 808px;
+  left: 983px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightsteelblue);
+  width: 204px;
+  height: 48px;
+}
+.dupcheckercom-all,
+.login {
+  position: absolute;
+  display: inline-block;
+}
+.login {
+  text-decoration: none;
+  top: 820px;
+  left: 1021px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue);
+  text-align: center;
+  width: 125px;
+  height: 23px;
+  text-decoration: none;
+  top: 808px;
+  left: 983px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightsteelblue);
+  width: 204px;
+  height: 48px;
+}
+.dupcheckercom-all {
+  top: 956px;
+  left: 36px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-harmattan);
+  color: var(--color-lightsteelblue);
+  width: 504px;
+  height: 32px;
+}
+.login-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-akaya-kanadaka);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-left: 190px;
+  margin-top: 210px;
+}

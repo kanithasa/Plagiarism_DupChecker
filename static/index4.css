@@ -1,0 +1,193 @@
+.result-page-child {
+  position: absolute;
+  top: 286px;
+  left: 461px;
+  border-radius: 50%;
+  width: 519px;
+  height: 437px;
+  object-fit: cover;
+}
+.div,
+.plagiarism-detected {
+  position: absolute;
+  letter-spacing: -0.41px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  text-align: center;
+}
+.div {
+  top: 417px;
+  left: 571px;
+  font-size: 80px;
+  line-height: 20px;
+  font-weight: 800;
+  width: 345px;
+  height: 136px;
+}
+.plagiarism-detected {
+  top: 807px;
+  left: 340px;
+  font-size: 60px;
+  line-height: 22px;
+  color: #e71616;
+  width: 807px;
+  height: 34px;
+}
+.result-page-item {
+  position: absolute;
+  top: 909px;
+  left: 639px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 209px;
+  height: 45px;
+}
+.go-to-home {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 918px;
+  left: 639px;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 199px;
+  height: 24px;
+}
+.result-page-inner {
+  position: absolute;
+  top: 1085px;
+  left: 0;
+  background-color: var(--color-lightsteelblue);
+  width: 1440px;
+  height: 564px;
+}
+.dupcheckercom-all {
+  position: absolute;
+  top: 1425px;
+  left: 23px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-harmattan);
+  display: inline-block;
+  width: 504px;
+  height: 32px;
+}
+.about-us,
+.connect,
+.extensions,
+.services {
+  position: absolute;
+  top: 1129px;
+  left: 98px;
+  display: inline-block;
+  color: var(--color-darkslateblue);
+  width: 122px;
+  height: 38px;
+}
+.connect,
+.extensions,
+.services {
+  left: 455px;
+}
+.connect,
+.services {
+  top: 1128px;
+  left: 806px;
+}
+.connect {
+  top: 1129px;
+  left: 1151px;
+}
+.careers-culture {
+  margin-bottom: 0;
+}
+.careers-culture-press-affili {
+  margin: 0;
+  padding-left: var(--padding-8xl);
+}
+.careers-culture-container,
+.dupchecker-for-chrome-container,
+.help-center-contact-container,
+.premium-team-plan-container {
+  position: absolute;
+  top: 1204px;
+  left: 61px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--color-black);
+  display: inline-block;
+  width: 249px;
+  height: 137px;
+}
+.dupchecker-for-chrome-container,
+.help-center-contact-container,
+.premium-team-plan-container {
+  top: 1202px;
+  left: 385px;
+  width: 283px;
+  height: 81px;
+}
+.help-center-contact-container,
+.premium-team-plan-container {
+  top: 1191px;
+  left: 776px;
+  width: 249px;
+  height: 137px;
+}
+.help-center-contact-container {
+  top: 1192px;
+  left: 1125px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background-color: var(--color-steelblue);
+  width: 1439px;
+  height: 208px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 47px;
+  left: 45px;
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.dupchecker,
+.trust-us-to {
+  position: absolute;
+  top: 42px;
+  left: 164px;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-harmattan);
+  display: inline-block;
+  width: 266px;
+  height: 59px;
+}
+.trust-us-to {
+  top: 108px;
+  left: 167px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-akaya-kanadaka);
+  width: 314px;
+  height: 31px;
+}
+.result-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1490px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inria-sans);
+}

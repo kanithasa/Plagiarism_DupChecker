@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../static/global3.css" />
+    <link rel="stylesheet" href="../static/index3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Akaya Kanadaka:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Proza Libre:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="input-page">
+      <div class="input-page-child"></div>
+      <div class="input-page-inner">
+        <textarea
+          class="group-child"
+          placeholder="enter your text"
+          required
+          maxlength="{100}"
+        >
+        </textarea>
+      </div>
+      <form method = 'POST'>
+        <div class="group-div">
+          <input class="group-item" type="file" name = "file1" required />
+        </div>
+        <div class="input-page-inner1">
+          <input class="group-item" type="file" name = "file2" required />
+        </div>
+           <button type = "submit" class="check-authenticity">CHECK AUTHENTICITY! </button>
+    </form>
+      <div class="or-chose-a">or chose a Text file to upload:</div>
+      <div class="enter-your-text">Enter your text</div>
+      <div class="enter-your-text1">Enter your text</div>
+      <div class="or-chose-a1">or chose a Text file to upload:</div>
+      <div class="input-page-inner2">
+        <textarea
+          class="group-child"
+          placeholder="enter your text"
+          required
+          maxlength="{100}"
+        >
+        </textarea>
+      </div>
+      <a class="rectangle-group" href="/">
+        <div class="rectangle-div"></div>
+        <div class="home">Home</div>
+      </a>
+      <button class="rectangle-container">
+        <div class="rectangle-div"></div>
+        <div class="about-us">About us</div>
+      </button>
+      <button class="group-button">
+        <div class="rectangle-div"></div>
+        <div class="contact">Contact</div>
+      </button>
+      <div class="trust-us-to">Trust us to keep your authenticity</div>
+      <div class="dupchecker">DUPCHECKER</div>
+      <img class="input-page-item" src="{{ url_for('static', filename='rectangle-71@2x.png') }}" alt="Image">
+
+      <div class="input-page-child1"></div>
+      <div class="dupcheckercom-all">
+        @ 2023 DupChecker.com | All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>

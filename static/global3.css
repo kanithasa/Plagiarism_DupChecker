@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-harmattan: Harmattan;
+  --font-akaya-kanadaka: "Akaya Kanadaka";
+  --font-inter: Inter;
+  --font-playfair-display: "Playfair Display";
+  --font-inherit: inherit;
+  --font-inria-sans: "Inria Sans";
+  --font-proza-libre: "Proza Libre";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-31xl: 50px;
+  --font-size-mini: 15px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-45xl: 64px;
+  --font-size-29xl: 48px;
+  --font-size-66xl: 85px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-steelblue: #0c599e;
+  --color-darkslateblue: #02335f;
+  --color-lightsteelblue: #b1d5f5;
+  --color-black: #000;
+  --color-gainsboro-200: #d9d9d9;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+
+  /* border radiuses */
+  --br-6xl: 25px;
+  --br-xl: 20px;
+}
